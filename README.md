@@ -1,27 +1,27 @@
 # 📧 EmailGenerator
 
-**EmailGenerator** ist ein Python-basiertes Tool zur automatisierten Erstellung temporärer E-Mail-Adressen. Es nutzt Selenium zur Webautomatisierung und ist ideal für Testumgebungen geeignet, in denen viele E-Mail-Adressen benötigt werden – ohne echte Adressen zu verwenden.
+**EmailGenerator** is a Python-based tool for automatically generating temporary email addresses using Selenium. It’s ideal for test environments where you need many email addresses without using real ones.
 
-## 🔧 Funktionen
+## 🔧 Features
 
-- Automatisierte Erstellung von temporären E-Mail-Adressen
-- Webautomatisierung mit Selenium
-- Ideal für automatisierte Registrierungstests oder Botschutz-Umgehung (nur zu Testzwecken!)
+- Automatic generation of temporary email addresses
+- Web automation using Selenium
+- Great for automated registration testing or email verification flows
 
-## 📁 Projektstruktur
+## 📁 Project Structure
 
-- `EmailGenerator.py` – Hauptskript zur Generierung von E-Mail-Adressen
-- `WebAuto.py` – Automatisierungslogik mit Selenium
+- `EmailGenerator.py` – Main script for generating email addresses
+- `WebAuto.py` – Selenium-based web automation logic
 
-## 🧰 Voraussetzungen
+## 🧰 Requirements
 
 - Python 3.x
 - Selenium (`pip install selenium`)
-- WebDriver (z. B. ChromeDriver oder GeckoDriver)
+- WebDriver (e.g., ChromeDriver or GeckoDriver)
 
-## 🚀 Installation & Ausführung
+## 🚀 Installation & Usage
 
-1. Repository klonen:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Cron1cle/EmailGenerator.git
